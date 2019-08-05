@@ -1,6 +1,7 @@
 const { resolve } = require('path')
 const extensionPath = resolve(__dirname, 'PolyglotSafariExtension')
 
+/** @type import('webpack').Configuration */
 module.exports = {
   entry: './PolyglotSafariExtension/Sources/content.ts',
   output: {
