@@ -17,9 +17,9 @@
     <key>CFBundlePackageType</key>
     <string>XPC!</string>
     <key>CFBundleShortVersionString</key>
-    <string>3.0</string>
+    <string>3.1</string>
     <key>CFBundleVersion</key>
-    <string>3.0.1</string>
+    <string>3.1.0</string>
     <key>LSMinimumSystemVersion</key>
     <string>$(MACOSX_DEPLOYMENT_TARGET)</string>
     <key>NSExtension</key>
@@ -35,6 +35,15 @@
           <string>content.bundle.js</string>
         </dict>
       </array>
+      <key>SFSafariContextMenu</key>
+      <array>
+        <dict>
+          <key>Command</key>
+          <string>tarnslateSelectedText</string>
+          <key>Text</key>
+          <string>Translate</string>
+        </dict>
+      </array>
       <key>SFSafariExtensionBundleIdentifiersToUninstall</key>
       <array>
         <string>co.randompaper.polyglot.extension</string>
@@ -44,15 +53,6 @@
         <dict>
           <key>Style Sheet</key>
           <string>content.css</string>
-        </dict>
-      </array>
-      <key>SFSafariContextMenu</key>
-      <array>
-        <dict>
-          <key>Text</key>
-          <string>Translate</string>
-          <key>Command</key>
-          <string>tarnslateSelectedText</string>
         </dict>
       </array>
       <key>SFSafariToolbarItem</key>

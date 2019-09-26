@@ -1,7 +1,7 @@
 {
   "name": "polyglot",
   "description": "Polyglot content script",
-  "version": "3.0.1",
+  "version": "3.1.0",
   "main": "./PolyglotSafariExtension/ContentScript/content.bundle.js",
   "scripts": {
     "build": "yarn build:script && yarn build:app",
@@ -16,7 +16,7 @@
     "postinstall": "carthage bootstrap --platform macos",
     "ship": "yarn clean && yarn build && yarn export && yarn package",
     "ship:mas": "yarn clean && yarn build && yarn export:mas",
-    "start": "webpack-cli -w --mode development"
+    "start": "NODE_ENV=development webpack-cli -w --mode development"
   },
   "dependencies": {
     "core-js": "~3",

@@ -1,11 +1,19 @@
 ![](https://github.com/uetchy/Polyglot/blob/gh-pages/assets/github-header.png?raw=true)
 
-[![Build Status](https://travis-ci.com/uetchy/Polyglot.svg?branch=master)](https://travis-ci.com/uetchy/Polyglot) [![Join the community on Spectrum](https://withspectrum.github.io/badge/badge.svg)](https://spectrum.chat/polyglot) [![Get the app](https://img.shields.io/badge/download-Mac%20App%20Store-informational.svg)](https://apps.apple.com/jp/app/polyglot/id1471801525?l=en&mt=12)
+[![Actions Status](https://github.com/uetchy/Polyglot/workflows/Polyglot/badge.svg)](https://github.com/uetchy/Polyglot/actions)
 
 > Polyglot is a Safari extension that translates selected text into your native language.
 
-[Get the app on Mac App Store](https://apps.apple.com/jp/app/polyglot/id1471801525?l=en&mt=12)
-then open `Polyglot.app` in `Applications` to configure keyboard shortcut and everything.
+# Setup
+
+1. Install `Polyglot.app` [from the Mac App Store](https://apps.apple.com/jp/app/polyglot/id1471801525?l=en&mt=12)
+2. Open the `Polyglot.app` in `Applications`
+3. Configure Settings in `Polyglot.app`
+4. Open `Safari > Preferences > Extensions`
+5. Activate `Polyglot` Extension
+6. Extension is now available
+
+Note: any pages that were already open before the extension was activated may need to be reloaded for the extension to work on them.
 
 # Usage
 
